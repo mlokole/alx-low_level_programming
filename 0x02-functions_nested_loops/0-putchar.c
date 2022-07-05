@@ -1,19 +1,20 @@
-#include <unistd.h>
-#include <alx.h>
+#include "_putchar.h"
 
 /**
- * main - Check description
- * Description: It prints the word Holberton, followed by a new line.
- * Return: 0.
- */
+* main - Print the word "_putchar"
+*
+* Return: Always 0 (Success)
+*/
+
 int main(void)
 {
-	char word[9] = "alx";
 	int i;
+	char p[] = "_putchar";
 
 	for (i = 0; i < 9; i++)
-		_putchar(word[i]);
-	_putchar('\n');
-
+		{
+		_putchar(p[i]);
+		}
+		_putchar('\n');
 	return (0);
 }
