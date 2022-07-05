@@ -6,6 +6,6 @@
  */
 int main(void)
 {
-	print_Aplhabet();
+	print_aplhabet();
 	return (0);
 }
