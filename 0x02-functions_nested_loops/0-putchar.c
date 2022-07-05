@@ -1,20 +1,20 @@
-#include "_putchar.h"
+#include <stdio.h>
 
 /**
-* main - Print the word "_putchar"
+* main - prints a string "_putchar" string of characters"
 *
-* Return: Always 0 (Success)
+* Return: 0
 */
 
 int main(void)
 {
 	int i;
-	char p[] = "_putchar";
+	char myText[] = "_putchar";
 
-	for (i = 0; i < 9; i++)
-		{
-		_putchar(p[i]);
-		}
-		_putchar('\n');
+	for (i = 0; i < 8; i++)
+	{
+		putchar(myText[i]);
+	}
+	putchar('\n');
 	return (0);
 }
