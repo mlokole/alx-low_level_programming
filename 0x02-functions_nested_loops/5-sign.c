@@ -5,7 +5,7 @@
  *
  * @n: character to compare
  *
- * Return: 1 if n is greater than zero, 0 if n is equal to zero and -1 if n is less than zero
+ * Return: 1 if n>0, 0 if n==0 and -1 if n<0
  *
  */
 
