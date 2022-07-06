@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * print sign - function
+ * print_sign - function
  *
  * @n: character to compare
  *
- * Return: 1 if n>0, 0 if n==0 and -1 if n<0
+ * Return: 1 if greater than zero, 0 if zero, -1 if less than zero
  *
  */
 
