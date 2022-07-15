@@ -10,14 +10,16 @@
  */
 char *string_toupper(char *n)
 {
-	int i;
+	int s;
 
-	for (i = 0; s[i] != '\0'; i++)
+	s = 0;
+	while (n[s] != '\0')
 	{
-		if (s[i] >= 97 && s[i] <= 122)
+		if (n[s] >= 'a' && n[s] <= 'z')
 		{
-			s[i] -= 32;
+			n[s] = n[s] - 32;
 		}
+		s++;
 	}
-	return (s);
+	return (n);
 }
